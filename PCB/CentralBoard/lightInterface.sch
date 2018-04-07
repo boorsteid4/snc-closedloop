@@ -127,7 +127,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -291,6 +291,75 @@ F 3 "" H 2600 4200 50  0001 C CNN
 	1    2600 4200
 	1    0    0    -1  
 $EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AC8934C
+P 2450 3700
+F 0 "#PWR?" H 2450 3550 50  0001 C CNN
+F 1 "+5V" H 2450 3840 50  0000 C CNN
+F 2 "" H 2450 3700 50  0001 C CNN
+F 3 "" H 2450 3700 50  0001 C CNN
+	1    2450 3700
+	1    0    0    -1  
+$EndComp
+Text HLabel 2650 3600 1    60   Input ~ 0
+LED1
+Text HLabel 3200 3600 1    60   Input ~ 0
+LED2
+Text HLabel 3750 3600 1    60   Input ~ 0
+LED3
+Text HLabel 4300 3600 1    60   Input ~ 0
+LED4
+Text HLabel 4800 3600 1    60   Input ~ 0
+LED5
+Text HLabel 5350 3600 1    60   Input ~ 0
+LED6
+Text HLabel 5900 3600 1    60   Input ~ 0
+LED7
+Text HLabel 6450 3600 1    60   Input ~ 0
+LED8
+Text HLabel 7000 3600 1    60   Input ~ 0
+LED9
+Text HLabel 6000 2600 0    60   Input ~ 0
+SENSE1
+Text HLabel 6000 2050 0    60   Input ~ 0
+SENSE2
+Text HLabel 6000 1500 0    60   Input ~ 0
+SENSE3
+Text HLabel 6000 1000 0    60   Input ~ 0
+SENSE4
+$Sheet
+S 6300 1450 600  200 
+U 5AC9150E
+F0 "transimpedanceAmp3" 60
+F1 "transimpedanceAmp.sch" 60
+F2 "Iin" I R 6900 1500 60 
+F3 "Vout" I L 6300 1500 60 
+$EndSheet
+$Sheet
+S 6300 950  600  200 
+U 5AC931A3
+F0 "transimpedanceAmp4" 60
+F1 "transimpedanceAmp.sch" 60
+F2 "Iin" I R 6900 1000 60 
+F3 "Vout" I L 6300 1000 60 
+$EndSheet
+$Sheet
+S 6300 2000 600  200 
+U 5AC93322
+F0 "transimpedanceAmp2" 60
+F1 "transimpedanceAmp.sch" 60
+F2 "Iin" I R 6900 2050 60 
+F3 "Vout" I L 6300 2050 60 
+$EndSheet
+$Sheet
+S 6300 2550 600  200 
+U 5AC93462
+F0 "transimpedanceAmp1" 60
+F1 "transimpedanceAmp.sch" 60
+F2 "Iin" I R 6900 2600 60 
+F3 "Vout" I L 6300 2600 60 
+$EndSheet
 Wire Wire Line
 	2650 4050 2600 4050
 Wire Wire Line
@@ -332,17 +401,6 @@ Connection ~ 8100 4200
 Wire Wire Line
 	8650 4050 8650 4200
 Connection ~ 8650 4200
-$Comp
-L +5V #PWR?
-U 1 1 5AC8934C
-P 2450 3700
-F 0 "#PWR?" H 2450 3550 50  0001 C CNN
-F 1 "+5V" H 2450 3840 50  0000 C CNN
-F 2 "" H 2450 3700 50  0001 C CNN
-F 3 "" H 2450 3700 50  0001 C CNN
-	1    2450 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2450 3700 2450 3950
 Wire Wire Line
@@ -408,40 +466,14 @@ Wire Wire Line
 Wire Wire Line
 	9050 3950 9150 3950
 Connection ~ 8550 3700
-Text HLabel 2650 3600 1    60   Input ~ 0
-LED1
-Text HLabel 3200 3600 1    60   Input ~ 0
-LED2
-Text HLabel 3750 3600 1    60   Input ~ 0
-LED3
-Text HLabel 4300 3600 1    60   Input ~ 0
-LED4
-Text HLabel 4800 3600 1    60   Input ~ 0
-LED5
-Text HLabel 5350 3600 1    60   Input ~ 0
-LED6
-Text HLabel 5900 3600 1    60   Input ~ 0
-LED7
-Text HLabel 6450 3600 1    60   Input ~ 0
-LED8
-Text HLabel 7000 3600 1    60   Input ~ 0
-LED9
-Text HLabel 7550 2600 1    60   Input ~ 0
-SENSE1
-Text HLabel 8100 2600 1    60   Input ~ 0
-SENSE2
-Text HLabel 8650 2600 1    60   Input ~ 0
-SENSE3
-Text HLabel 9150 2600 1    60   Input ~ 0
-SENSE4
 Wire Wire Line
-	9150 3850 9150 3600
+	9150 1000 9150 3850
 Wire Wire Line
-	8650 3600 8650 3850
+	8650 1500 8650 3850
 Wire Wire Line
-	8100 3850 8100 3600
+	8100 2050 8100 3850
 Wire Wire Line
-	7550 3600 7550 3850
+	7550 2600 7550 3850
 Wire Wire Line
 	7000 3850 7000 3600
 Wire Wire Line
@@ -458,4 +490,20 @@ Wire Wire Line
 	3200 3850 3200 3600
 Wire Wire Line
 	2650 3850 2650 3600
+Wire Wire Line
+	9150 1000 6900 1000
+Wire Wire Line
+	6900 1500 8650 1500
+Wire Wire Line
+	8100 2050 6900 2050
+Wire Wire Line
+	7550 2600 6900 2600
+Wire Wire Line
+	6300 2600 6000 2600
+Wire Wire Line
+	6000 2050 6300 2050
+Wire Wire Line
+	6300 1500 6000 1500
+Wire Wire Line
+	6000 1000 6300 1000
 $EndSCHEMATC
