@@ -21,4 +21,21 @@ struct Controller {
 	int e;		// Current error signal
 	int int_e;	// Integral of previous error signal
 	int de;		// Instantaneous derivative of error signal
+
+	//Inputs
+	int target	// Desired output
+
+	// Output Signal
+	int y;		// Saves the ***previous*** output signal for error calculations
 };
+
+
+int calcError(struct Controller controller, int outputReading);
+
+int calcIntError(struct Controller controller, int outputReading, int timeStep);
+int calcIntError(struct Controller controller, int outputReading, int timeStep, int error);
+
+int calcdError(struct Controller controller, int outputReading, int timeStep);
+int calcdError(struct Controller controller, int outputReading, int timeStep, int error);
+
+void calcPID(struct Controller controller int outputReading, int timeStep);
