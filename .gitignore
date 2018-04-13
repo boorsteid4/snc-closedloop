@@ -20,3 +20,5 @@
 *.txt
 */.jxbrowser-data
 */.metadata
+/msp430fr243x_adc10_01.c/
+/msp430fr243x_ta0_01.c/
