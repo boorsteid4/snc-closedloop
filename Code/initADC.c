@@ -1,8 +1,14 @@
-#include <msp430.h>
-
 /**
  * initADC
+ *
+ *  Created on: Apr 13, 2018
+ *      Author: nomad
  */
+ 
+#include <msp430.h>
+#include "initADC.h"
+
+
 void initADC(void)
 {
     WDTCTL = WDTPW | WDTHOLD;                                // Stop WDT

@@ -1,9 +1,14 @@
-#include <msp430.h>
-#include "main.h"
-
 /**
  * initTA0.c
+ *
+ *  Created on: Apr 13, 2018
+ *      Author: nomad
  */
+
+#include <msp430.h>
+#include "initTA0.h"
+
+
 void initTA0(void)
 {
     WDTCTL = WDTPW | WDTHOLD;                     // Stop WDT

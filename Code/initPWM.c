@@ -6,7 +6,7 @@
  */
 
 #include <msp430.h>
-#include "main.h"
+#include "initPWM.h"
 
 void initPWM(void /*int initial_rate*/)
 {

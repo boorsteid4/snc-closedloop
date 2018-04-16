@@ -1,12 +1,26 @@
-#include <msp430.h> 
-#include "main.h"
-
-/**
- * main.c
+/*
+ * Controller.c
+ *
+ * Damon 'nomad' Boorstein
+ * Lonnie L. Souder II
+ * 04/13/2018
+ *
+ * This is the main implementation file for a control system
+ * implemented on an MSP430FR2433 which controls the brightness
+ * in a room using an array of LEDs and light sensors.
  */
+ 
+ // uController Inits
+#include <msp430.h> 
+#include "initTA0.h"
+#include "initADC.h"
+
+// Data Structures
+#include "Controller.h"
+
+
 void initTA0();
 void initADC();
-void initPWM();
 
 unsigned int ADC_Result;
 
