@@ -6,5 +6,5 @@ AN - Application Note, DS - Datasheet, UG - User Guide
 |-----------------|---------------------|-------------------------------------------|:---------------------------------------------------------------------------:|
 |Texas Instruments|SLAU445G		|MSP430FR4xx and FR2xx Family User's Guide  |[UG](slau445g.pdf)								  |
 |Texas Instruments|SLASE59B		|MSP430FR2433 Mixed-Signal Microcontroller  |[DS](msp430fr2433.pdf)							  |
-|		  |			|Project Proposal			    |[Project Proposal](Final Project Proposal - Systems and Control.pdf)	  |
+|		  |			|Project Proposal			    |[Project Proposal](Final/ Project/ Proposal/ -/ Systems/ and/ Control.pdf)	  |
 
