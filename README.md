@@ -15,5 +15,5 @@ The MSP430FR2433 serves as the processor on which the control system will be imp
 * **main.c** - The top level entity of this project.
 * **Controller.c/.h** - These files define a structure to contain all of the data that is necessary to implement a control system. It also includes a number of functions used to update the controls system.
 
-Links:
-* [Project Proposal](https://docs.google.com/document/d/1NXE6P0etRVScEekA48SSFpFqhn_RTcBfbbBdU6kA_40/edit?usp=sharing)
+## Documentation
+Contains documentation for the project.
