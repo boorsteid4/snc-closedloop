@@ -1,8 +1,12 @@
+## KiCAD Files
 *.bak
 *.kicad_pcb-bak
 *.zip
 
 ## Code Composer Junk Files from Eclipse
+.jxbrowser-data
+.metadata
+RemoteSystemsTempFiles
 *.cproject
 *.project
 *.cmd
@@ -18,7 +22,5 @@
 *.mk
 *.ccxml
 *.txt
-*/.jxbrowser-data
-*/.metadata
 /msp430fr243x_adc10_01.c/
 /msp430fr243x_ta0_01.c/

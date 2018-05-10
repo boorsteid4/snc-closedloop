@@ -1,0 +1,27 @@
+uml.sty is a package for writing UML (Unified Modelling Language) 
+diagrams in LaTeX. Currently, it implements a subset 
+of class diagrams, and some extra constructs as well. 
+The example on the right hand demonstrates the 
+Schema constructs. 
+
+Run the Makefile or alternative:
+
+latex uml.ins
+latex uml.dtx
+makeindex -s gind.ist uml
+makeindex -s gglo.ist -o uml.gls uml.glo
+latex uml.dtx
+dvips uml.dvi
+ps2pdf uml.ps
+
+
+This version of uml uses the extended version of the keyval 
+package. So be sure that you 
+- have installed xkeyval with the special pst-xkey.tex
+  (CTAN: tex-archive/macros/latex/contrib/xkeyval/)
+- do not load another package after uml, which loads
+  the old keyval.sty or pst-key.tex
+
+
+--
+Herbert Voss 2006-11-23
