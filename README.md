@@ -1,5 +1,11 @@
-# snc-closedloop
-Closed-loop control for automatically dimming light.
+# Automatic Light Dimming System
+Welcome to the Git repo for our Systems and Control Spring 2018 final project! We are designing an automatic light dimming system with PID control. This top directory gives a general overview of the project.
+
+## Contents
+
+* [Hardware](#hardware)
+* [Code Structure](#code_structure)
+* [Documentation](#documentation)
 
 ## Hardware
 The hardware for this project consists of:
@@ -15,5 +21,13 @@ The MSP430FR2433 serves as the processor on which the control system will be imp
 * **main.c** - The top level entity of this project.
 * **Controller.c/.h** - These files define a structure to contain all of the data that is necessary to implement a control system. It also includes a number of functions used to update the controls system.
 
+Code can be found [here](Code).
+
 ## Documentation
-Contains documentation for the project.
+[This subdirectory](Documentation) contains documentation for the project.
+
+## PCB
+[This subdirectory](PCB) contains PCB schematics and layouts.
+
+## SolidWorks
+Solidworks designs created for the project thus far can be found in [this subdirectory](SLDWK).
