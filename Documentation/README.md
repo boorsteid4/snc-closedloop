@@ -1,8 +1,7 @@
 # Documentation Catalog
 
-|     Author      | Company Catalog No. |                Description                |                                    Link                              |
-
-|-----------------|---------------------|-----------------------------------------------	|:---------------------------------------------------------------------:|
+|     Author      | Company Catalog No. |                Description                		|                                    Link				|
+|-----------------|---------------------|-------------------------------------------------------|:---------------------------------------------------------------------:|
 |		  |			|Project Proposal			    		|[Project Proposal](Final_Project_Proposal-Systems_and_Control.pdf)	|
 |		  |			|Final Project Report			    		|[Final Project Report](09321_1_Boorstein_Souder.pdf)		  	|
 |		  |			|Bill of Materials			    		|[BOM](bom/Bill-of-Materials.pdf)					|
@@ -17,12 +16,12 @@
 |Hwang & Kim	  |			|Article on Samsung's new Green Building    		|[REF](refs/1420326x10392017.pdf)					|
 |Lee et. al.	  |			|Article on human response to illuminance variations	|[REF](refs/1420326x12446208.pdf)					|
 |IEEE		  |			|IEEE Std. 1789-2015					|[REF](refs/7118618.pdf)						|
-|Lu et. al.	  |			|Report on ZigBee-Based Lighting System			|[REF](out.pdf)								|
-|Lonnie Souder II |			|Light Board Schematic					|[SCH](LightBoardSchematic.png)						|
-|Lonnie Souder II |			|Light Controller Schematic				|[SCH](LightControllerSchematic.png)					|
-|Lonnie Souder II |			|Sensor Array Schematic					|[SCH](SensorArray.png)							|
-|Lonnie Souder II |			|Example Transimpedance Amplifier Schematic		|[SCH](transimpedance_amp.png)						|
-|Texas Instruments|SLAU445G		|MSP430FR4xx and FR2xx Family User's Guide  		|[UG](slau445g.pdf)							|
+|Lu et. al.	  |			|Report on ZigBee-Based Lighting System			|[REF](refs/out.pdf)							|
+|Lonnie Souder II |			|Light Board Schematic					|[SCH](schematic/LightBoardSchematic.png)				|
+|Lonnie Souder II |			|Light Controller Schematic				|[SCH](schematic/LightControllerSchematic.png)				|
+|Lonnie Souder II |			|Sensor Array Schematic					|[SCH](schematic/SensorArray.png)					|
+|Lonnie Souder II |			|Example Transimpedance Amplifier Schematic		|[SCH](schematic/transimpedance_amp.png)				|
+|Texas Instruments|SLAU445G		|MSP430FR4xx and FR2xx Family User's Guide  		|[UG](ds_ug/slau445g.pdf)						|
 
 
 ### Legend
